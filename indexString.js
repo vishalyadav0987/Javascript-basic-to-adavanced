@@ -14,7 +14,7 @@ console.log(myName.length);
 
 /* 🤌 Finding in String */
 // Finding a shuruwat se (indexOf) character
-console.log(anySentence.indexOf("Vishal"));
+console.log(anySentence.indexOf("Vishal yadav"));
 console.log(anySentence.indexOf("a"));// 1st Occurance
 console.log(anySentence.indexOf("a", (anySentence.indexOf("a")) + 1));// 2nd Occurance
 
