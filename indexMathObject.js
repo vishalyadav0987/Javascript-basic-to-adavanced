@@ -1,4 +1,4 @@
-console.log("MathObject.....");
+console.log("MathObject.....Methods");
 // perform Mathematical operation
 
 // 1.Value of Pie
