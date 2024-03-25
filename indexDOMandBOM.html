@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Concepts</title>
+    <style>
+        /* body {
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-image: url("1.jpg");
+
+
+        } */
+
+        .box {
+            color: white;
+            font-weight: 700;
+            font-size: 84px;
+        }
+
+        body::-webkit-scrollbar {
+            scroll-snap-type: none;
+        }
+
+        body {
+
+            height: 100vh;
+            background-color: rgb(244, 165, 6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .btn {
+            margin-top: 1rem;
+            color: white;
+            background-color: black;
+            border-radius: 6px;
+            padding: 1.2rem;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .textField {
+            margin-top: 1rem;
+            padding: 1.2rem;
+            font-size: 20px;
+            outline: none;
+        }
+        .timer-box{
+            margin-top: 1rem;
+            /* background-color: black; */
+            /* width: 100%; */
+            height: 60%;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            padding-top: 1px;
+        }
+        #timer-countdown{
+            border-radius: 8px;
+            background-color: aqua;
+            width: 100%;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-weight: 600;
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <center>DOM and BOM</center>
+
+    </div>
+    <br>
+    <div>
+        <form action="#" style="color: blue; font-weight: 700; font-size: 24px;" id="form">
+            <p>Vishal</p>
+            <label for="Car">Car</label>
+            <input type="radio" name="choose" value="Car">
+            <label for="Car">Bus</label>
+            <input type="radio" name="choose" value="Bus">
+            <label for="Car">Motor cycle</label>
+            <input type="radio" name="choose" value="Motor cycle">
+            <label for="Car">Bike</label>
+            <input type="radio" name="choose" value="Bike">
+
+            <select name="" id="Vehicles" ">
+                <option value=" Car">Car</option>
+                <option value="Bus">Bus</option>
+                <option value="Bike">Bike</option>
+                <option value="Cycle">Cycle</option>
+            </select>
+            <p id="getValues"></p>
+        </form>
+        <div class="btn" id="btnEvent">Button event</div>
+        <div class="btn-1 btn" id="btnEvent4thWay">Button event way 2</div>
+        <div class="btn-2 btn" id="btnEvent5thWay">Button event way 3</div>
+        <input type="text" class="textField" id="inputField" placeholder="What is Your name" onkeypress="keyPress()">
+        <p id="button-handling"></p>
+
+        <h1 style="margin-bottom: 1rem;">This is my name....</h1>
+        <p id="showNameData" style="margin-bottom: 1rem; color: blue; font-size: 24px;"></p>
+        <div class="btn" id="showName" style="background-color: blue;">Show my Name</div>
+        <div class="timer-box">
+            <p id="timer-countdown"></p>
+            <div class="btn" id="startTimer" style="background-color: blue;">Start Timer</div>
+            <div class="btn" id="stopTimer" style="background-color: blue;">Stop Timer</div>
+        </div>
+    </div>
+    <script src="indexDOMandBOM.js"></script>
+</body>
+
+</html>

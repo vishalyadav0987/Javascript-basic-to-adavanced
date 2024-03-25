@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced javascriptBasics</title>
+    <style>
+        .box{
+            color: white;
+            font-weight: 700;
+            font-size: 84px;
+        }
+        body::-webkit-scrollbar{
+            scroll-snap-type: none;
+     }
+        body{
+          
+            height: 100vh;
+            background-color: rgb(0, 157, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #parent-div{
+            margin-top: 1rem;
+            width: 500px;
+            height: 500px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 10px solid rgba(95, 62, 62, 0.324);
+        }
+        #child-div{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 255, 255);
+            border: 10px solid rgba(0, 0, 0, 0.324);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <center>Advanced javascriptBasics:
+            <br>
+            1. by default bubbling phase (bottom to top)
+            <br>
+            2. capturing phase (top to bottom)
+        </center>
+    </div>
+    <br>
+    <div id="parent-div">
+        <div id="child-div"></div>
+    </div>
+    <script src="adavanced.js"></script>
+  
+</body>
+</html>
