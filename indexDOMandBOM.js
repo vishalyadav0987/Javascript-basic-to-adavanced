@@ -7,7 +7,7 @@ console.log(document);
 
 
 
-/*🤌 Childerens */
+/*🤌 Childerens dom menupulation */
 
 
 console.log(document.body.childNodes);
