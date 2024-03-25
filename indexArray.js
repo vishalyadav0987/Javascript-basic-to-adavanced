@@ -40,7 +40,7 @@ console.log("     ");
 console.log("Using FOR LOOP");
 
 for (let i = 0; i < foodList.length; i++) {
-    console.log(`foodItem ${i}: ${foodList[i]}`);
+    console.log(`fooditem ${i}: ${foodList[i]}`);
 }
 
 
